@@ -11,7 +11,8 @@ import User from "../model/userSchema.js";
     } catch (error) {
         console.log(error);
     }
-};                    
+
+}    
 
 
 export const addUser = async (req, res) => {
