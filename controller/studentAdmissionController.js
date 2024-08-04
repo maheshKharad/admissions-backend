@@ -52,6 +52,7 @@ export const updatestudent = async (req, res) => {
         if (req.body.address) {
             objtoUpdate['address'] = req.body.address
         }
+        
         if (req.body.dob) {
             objtoUpdate['dob'] = req.body.dob
         }
